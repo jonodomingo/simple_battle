@@ -47,7 +47,7 @@ while game_running == True:
 
         # If the monster died, end the game:
         if player['health'] <= 0:
-            pass # Pass allows for no action, to be replaced.
+            pass # Pass allows for no action.
 
         # Show the user monster/player health after attacks.
         print(monster['health'])
